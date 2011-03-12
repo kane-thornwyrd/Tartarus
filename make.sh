@@ -40,7 +40,7 @@ mkdir -p web/public/img
 for SASS_TEMP in $(ls -AB src/sass | grep -e ".sass")
 do
 	tgt=$(echo $SASS_TEMP | sed -e "s/sass/css/")
-#	sass -t compressed -E utf-8 src/sass/$SASS_TEMP > web/css/$tgt
+#	sass -t compressed -E utf-8 src/sass/$SASS_TEMP > web/public/css/$tgt
 	sass -t expanded -E utf-8 src/sass/$SASS_TEMP > web/public/css/$tgt
 done
 
