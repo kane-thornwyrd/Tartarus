@@ -42,5 +42,12 @@ $(document).bind {
 }
 
 $('#main').append '<div id="perso"/>'
+$('#perso').css {
+	'z-index' : 0
+}
+
+$('#screen').css {
+	'z-index' : 10
+}
 
 #window.onEachFrame g.run()

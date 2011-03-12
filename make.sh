@@ -33,6 +33,8 @@ mv docs web/public/
 
 cp src/js-lib/*.js web/public/js
 
+cp src/img-ready/* web/public/img/.
+
 mkdir -p web/public/css
 mkdir -p web/public/img
 for SASS_TEMP in $(ls -AB src/sass | grep -e ".sass")
