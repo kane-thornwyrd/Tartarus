@@ -37,6 +37,13 @@ By "cutting edge technics" I mean using javascript server-side via [Node.js] [No
 ##SH Scripts bundled
 ###make.sh
 As expected, the `make.sh` script build the project from source and put the files in the right places.
+
+__Notice those lines _(near line 42)___ :
+
+    #	sass -t compressed -E utf-8 src/sass/$SASS_TEMP > web/public/css/$tgt
+    	sass -t expanded -E utf-8 src/sass/$SASS_TEMP > web/public/css/$tgt
+
+When one is decided to compile the app for "production", one can uncomment the first line and comment the second, the "SASS" will be compiled in a single-line css, not cool for debugging, but great for optimisation.
 ###run.sh
 Just launch the server. Listening at http://localhost:3000 .
 ###debug.sh
