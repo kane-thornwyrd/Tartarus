@@ -23,7 +23,7 @@ Nothing's guaranteed.**
 <dt>run.sh</dt>
 <dd>Just launch the server.</dd>
 <dt>debug.sh</dt>
-<dd>More interesting, start a [debug session]  [1] with a firebug-like tool, able to set breakpoints directly in the application (OMG I'm in love with node-inspector !) .</dd>
+<dd>More interesting, start a [debug]  [1] session with a firebug-like tool, able to set breakpoints directly in the application (OMG I'm in love with node-inspector !) .</dd>
 </dl>
 
 ##Source tree
