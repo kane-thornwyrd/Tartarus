@@ -1,11 +1,18 @@
 Tartarus
 ======
 
-1. Index
+Index
 --------------------
-2. Quick start
+1. Quick start
+2. SH Scripts bundled
+3. Source tree
+4. Workflow
+
+Quick start
 --------------------
-3. SH Scripts
+SH Scripts bundled
 --------------------
-4. Source tree
+Source tree
+--------------------
+Workflow
 --------------------
